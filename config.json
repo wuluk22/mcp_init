@@ -1,0 +1,15 @@
+{
+  "ollama": {
+    "url": "http://localhost:11434/api/chat",
+    "model": "qwen2.5:7b-instruct"
+  },
+  "servers": {
+    "recon": {
+      "url": "http://192.168.1.0:8001/tools"
+    },
+    "web": {
+      "url": "http://192.168.1.0:8002/tools"
+    }
+  }
+}
+
